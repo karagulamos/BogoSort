@@ -1,3 +1,9 @@
+//  Author: Alexander Kargulamos
+//    Date: February 02, 2020
+// Comment: A method of sorting in which a list is repeatedly shuffled until it's eventually sorted. 
+//          The algorithm is impractical on classical computers as it requires O(N!) time to complete. 
+//          However, quantum computers can do this in O(1) as result of quantum entanglement.
+
 using System;
 
 public class BogoSort

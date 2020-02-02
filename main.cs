@@ -13,6 +13,6 @@ class MainClass
     foreach(var item in items)
       Console.Write(item + " ");
 
-    Console.WriteLine($"\n{bogo.Passes} passes");
+    Console.WriteLine($"\n{bogo.Iterations} iterations.");
   }
 }

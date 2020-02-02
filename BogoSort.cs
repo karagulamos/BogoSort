@@ -22,11 +22,11 @@ public class BogoSort
     while(!Sorted)
     {
       Shuffle();
-      Passes++;
+      Iterations++;
     }
   }
 
-  public int Passes { get; private set; }
+  public int Iterations { get; private set; }
 
   public bool Sorted
   { 
